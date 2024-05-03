@@ -2,10 +2,16 @@ package candidatura;
 import java.util.concurrent.ThreadLocalRandom;
 public class ProcessoSeletivo {
     public static void main(String[] args) {
-        analisarCandidato(1900);
+        /*analisarCandidato(1900);
         analisarCandidato(2000);
-        analisarCandidato(5000);
+        analisarCandidato(5000);*/
 
+        selecaoCandidatos();
+      
+    }
+
+
+    static void selecaoCandidatos(){
         String [] candidatos ={"FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO", "MONICA", "FABRICIO", "MIRELA", "DANIELA", "JORGE"};
         int candidatosSelecionados =0;
         int candidatoAtual=0;
@@ -25,7 +31,6 @@ public class ProcessoSeletivo {
             candidatoAtual++;
         }
     }
-
 
 
     static void analisarCandidato(double salarioPretendido){
