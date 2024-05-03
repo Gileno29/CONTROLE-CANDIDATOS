@@ -14,10 +14,6 @@ public class ProcessoSeletivo {
       
     }
 
-
-
-
-
     static void entrandoEmContato(String candidato){
         int tentativasRealizadas = 1;
         boolean continuarTentando = true;
