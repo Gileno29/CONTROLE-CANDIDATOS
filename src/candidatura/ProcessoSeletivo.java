@@ -6,9 +6,21 @@ public class ProcessoSeletivo {
         analisarCandidato(2000);
         analisarCandidato(5000);*/
 
-        selecaoCandidatos();
+        //selecaoCandidatos();
+        imprimirSelecionados();
       
     }
+
+
+    static void imprimirSelecionados(){
+        String [] candidatos = {"FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO"};
+
+        System.out.println("Imprimindo a lista: " + candidatos);
+        for (int indice=0; indice < candidatos.length;indice++){
+            System.out.println("O candidato de n° "+ (indice+1) + " é "+ candidatos[indice]);
+        }
+    }
+
 
 
     static void selecaoCandidatos(){
